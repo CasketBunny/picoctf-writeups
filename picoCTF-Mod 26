@@ -1,0 +1,14 @@
+picoCTF - Mod 26
+Category: General Skills
+Difficulty: Easy
+
+Challenge Description:
+"Cryptography can be easy, do you know what ROT13 is?"
+The file mod26.txt contains the following encrypted string:
+cvpbPGS{arkg_gvzr_V'yy_gel_2_ebhaqf_bs_ebg13_jdJBFOXJ}
+
+Solution:
+The challenge title ("Mod 26") and the hint suggest it is a ROT13 cipher, a Caesar cipher with a rotation of 13 characters.
+Applying ROT13 using an online ROT13 tool like rot13.com to the string yields:
+
+picoCTF{next_time_I'll_try_2_rounds_of_rot13_wqWOSBKW}
